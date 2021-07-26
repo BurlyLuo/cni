@@ -1,0 +1,29 @@
+No.     Time                          Source                Destination           Protocol Length Info
+      1 2021-07-26 20:54:03.857948    02:42:ac:11:00:02     Broadcast             ARP      42     Who has 172.17.0.3? Tell 172.17.0.2
+
+Frame 1: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: 02:42:ac:11:00:02 (02:42:ac:11:00:02), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time                          Source                Destination           Protocol Length Info
+      2 2021-07-26 20:54:03.858531    02:42:ac:11:00:03     02:42:ac:11:00:02     ARP      42     172.17.0.3 is at 02:42:ac:11:00:03
+
+Frame 2: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: 02:42:ac:11:00:03 (02:42:ac:11:00:03), Dst: 02:42:ac:11:00:02 (02:42:ac:11:00:02)
+Address Resolution Protocol (reply)
+
+No.     Time                          Source                Destination           Protocol Length Info
+      3 2021-07-26 20:54:03.858537    172.17.0.2            172.17.0.3            ICMP     98     Echo (ping) request  id=0x1d00, seq=0/0, ttl=64 (reply in 4)
+
+Frame 3: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: 02:42:ac:11:00:02 (02:42:ac:11:00:02), Dst: 02:42:ac:11:00:03 (02:42:ac:11:00:03)
+Internet Protocol Version 4, Src: 172.17.0.2, Dst: 172.17.0.3
+Internet Control Message Protocol
+
+No.     Time                          Source                Destination           Protocol Length Info
+      4 2021-07-26 20:54:03.858948    172.17.0.3            172.17.0.2            ICMP     98     Echo (ping) reply    id=0x1d00, seq=0/0, ttl=64 (request in 3)
+
+Frame 4: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: 02:42:ac:11:00:03 (02:42:ac:11:00:03), Dst: 02:42:ac:11:00:02 (02:42:ac:11:00:02)
+Internet Protocol Version 4, Src: 172.17.0.3, Dst: 172.17.0.2
+Internet Control Message Protocol
