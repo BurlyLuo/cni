@@ -1,0 +1,29 @@
+No.     Time                          Source                Destination           Protocol Length Info
+      1 2021-07-26 16:06:37.586009    6a:c4:14:76:29:f7     Broadcast             ARP      42     Who has 10.20.1.3? Tell 10.20.1.2
+
+Frame 1: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: 6a:c4:14:76:29:f7 (6a:c4:14:76:29:f7), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time                          Source                Destination           Protocol Length Info
+      2 2021-07-26 16:06:37.586523    a2:7e:68:70:57:a3     6a:c4:14:76:29:f7     ARP      42     10.20.1.3 is at a2:7e:68:70:57:a3
+
+Frame 2: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: a2:7e:68:70:57:a3 (a2:7e:68:70:57:a3), Dst: 6a:c4:14:76:29:f7 (6a:c4:14:76:29:f7)
+Address Resolution Protocol (reply)
+
+No.     Time                          Source                Destination           Protocol Length Info
+      3 2021-07-26 16:06:37.586595    10.20.1.2             10.20.1.3             ICMP     98     Echo (ping) request  id=0x6da4, seq=1/256, ttl=64 (reply in 4)
+
+Frame 3: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: 6a:c4:14:76:29:f7 (6a:c4:14:76:29:f7), Dst: a2:7e:68:70:57:a3 (a2:7e:68:70:57:a3)
+Internet Protocol Version 4, Src: 10.20.1.2, Dst: 10.20.1.3
+Internet Control Message Protocol
+
+No.     Time                          Source                Destination           Protocol Length Info
+      4 2021-07-26 16:06:37.587002    10.20.1.3             10.20.1.2             ICMP     98     Echo (ping) reply    id=0x6da4, seq=1/256, ttl=64 (request in 3)
+
+Frame 4: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: a2:7e:68:70:57:a3 (a2:7e:68:70:57:a3), Dst: 6a:c4:14:76:29:f7 (6a:c4:14:76:29:f7)
+Internet Protocol Version 4, Src: 10.20.1.3, Dst: 10.20.1.2
+Internet Control Message Protocol
