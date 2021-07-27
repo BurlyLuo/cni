@@ -1,0 +1,29 @@
+No.     Time           Source                Destination           Protocol Length Info
+     19 39.594000      HuaweiTe_1f:74:71     Broadcast             ARP      60     Who has 192.168.1.2? Tell 192.168.1.1
+
+Frame 19: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: HuaweiTe_1f:74:71 (54:89:98:1f:74:71), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 39.703000      HuaweiTe_46:41:17     HuaweiTe_1f:74:71     ARP      60     192.168.1.2 is at 54:89:98:46:41:17
+
+Frame 20: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: HuaweiTe_46:41:17 (54:89:98:46:41:17), Dst: HuaweiTe_1f:74:71 (54:89:98:1f:74:71)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 39.719000      192.168.1.1           192.168.1.2           ICMP     74     Echo (ping) request  id=0x1204, seq=1/256, ttl=128 (reply in 22)
+
+Frame 21: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: HuaweiTe_1f:74:71 (54:89:98:1f:74:71), Dst: HuaweiTe_46:41:17 (54:89:98:46:41:17)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 39.766000      192.168.1.2           192.168.1.1           ICMP     74     Echo (ping) reply    id=0x1204, seq=1/256, ttl=128 (request in 21)
+
+Frame 22: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: HuaweiTe_46:41:17 (54:89:98:46:41:17), Dst: HuaweiTe_1f:74:71 (54:89:98:1f:74:71)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+Internet Control Message Protocol

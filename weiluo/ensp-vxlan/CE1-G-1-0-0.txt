@@ -1,0 +1,45 @@
+No.     Time           Source                Destination           Protocol Length Info
+      3 4.906000       HuaweiTe_1f:74:71     Broadcast             ARP      110    Who has 192.168.1.2? Tell 192.168.1.1
+
+Frame 3: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: 38:36:0a:01:01:00 (38:36:0a:01:01:00), Dst: 38:36:0a:02:01:00 (38:36:0a:02:01:00)
+Internet Protocol Version 4, Src: 1.1.1.1, Dst: 2.2.2.2
+User Datagram Protocol, Src Port: 4789, Dst Port: 4789
+Virtual eXtensible Local Area Network
+Ethernet II, Src: HuaweiTe_1f:74:71 (54:89:98:1f:74:71), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 4.938000       HuaweiTe_46:41:17     HuaweiTe_1f:74:71     ARP      110    192.168.1.2 is at 54:89:98:46:41:17
+
+Frame 4: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: 38:36:0a:02:01:00 (38:36:0a:02:01:00), Dst: 38:36:0a:01:01:00 (38:36:0a:01:01:00)
+Internet Protocol Version 4, Src: 2.2.2.2, Dst: 1.1.1.1
+User Datagram Protocol, Src Port: 4789, Dst Port: 4789
+Virtual eXtensible Local Area Network
+Ethernet II, Src: HuaweiTe_46:41:17 (54:89:98:46:41:17), Dst: HuaweiTe_1f:74:71 (54:89:98:1f:74:71)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 4.985000       192.168.1.1           192.168.1.2           ICMP     124    Echo (ping) request  id=0x1204, seq=1/256, ttl=128 (reply in 6)
+
+Frame 5: 124 bytes on wire (992 bits), 124 bytes captured (992 bits) on interface 0
+Ethernet II, Src: 38:36:0a:01:01:00 (38:36:0a:01:01:00), Dst: 38:36:0a:02:01:00 (38:36:0a:02:01:00)
+Internet Protocol Version 4, Src: 1.1.1.1, Dst: 2.2.2.2
+User Datagram Protocol, Src Port: 4789, Dst Port: 4789
+Virtual eXtensible Local Area Network
+Ethernet II, Src: HuaweiTe_1f:74:71 (54:89:98:1f:74:71), Dst: HuaweiTe_46:41:17 (54:89:98:46:41:17)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 5.016000       192.168.1.2           192.168.1.1           ICMP     124    Echo (ping) reply    id=0x1204, seq=1/256, ttl=128 (request in 5)
+
+Frame 6: 124 bytes on wire (992 bits), 124 bytes captured (992 bits) on interface 0
+Ethernet II, Src: 38:36:0a:02:01:00 (38:36:0a:02:01:00), Dst: 38:36:0a:01:01:00 (38:36:0a:01:01:00)
+Internet Protocol Version 4, Src: 2.2.2.2, Dst: 1.1.1.1
+User Datagram Protocol, Src Port: 4789, Dst Port: 4789
+Virtual eXtensible Local Area Network
+Ethernet II, Src: HuaweiTe_46:41:17 (54:89:98:46:41:17), Dst: HuaweiTe_1f:74:71 (54:89:98:1f:74:71)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+Internet Control Message Protocol
