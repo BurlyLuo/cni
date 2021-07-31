@@ -1,0 +1,15 @@
+No.     Time                          Source                Destination           Protocol Length Info
+      1 2021-07-31 17:10:56.190468    10.244.0.3            10.244.1.7            ICMP     84     Echo (ping) request  id=0x4a00, seq=0/0, ttl=63 (reply in 2)
+
+Frame 1: 84 bytes on wire (672 bits), 84 bytes captured (672 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.244.0.3, Dst: 10.244.1.7
+Internet Control Message Protocol
+
+No.     Time                          Source                Destination           Protocol Length Info
+      2 2021-07-31 17:10:56.190828    10.244.1.7            10.244.0.3            ICMP     84     Echo (ping) reply    id=0x4a00, seq=0/0, ttl=63 (request in 1)
+
+Frame 2: 84 bytes on wire (672 bits), 84 bytes captured (672 bits)
+Raw packet data
+Internet Protocol Version 4, Src: 10.244.1.7, Dst: 10.244.0.3
+Internet Control Message Protocol
