@@ -1,0 +1,17 @@
+No.     Time                          Source                Destination           Protocol Length Info
+     27 2021-08-07 18:46:16.309569    10.244.231.200        10.244.200.194        ICMP     118    Echo (ping) request  id=0x3300, seq=0/0, ttl=63 (reply in 29)
+
+Frame 27: 118 bytes on wire (944 bits), 118 bytes captured (944 bits)
+Ethernet II, Src: Vmware_bd:fb:4a (00:0c:29:bd:fb:4a), Dst: Vmware_e2:bf:86 (00:0c:29:e2:bf:86)
+Internet Protocol Version 4, Src: 172.12.1.11, Dst: 172.12.1.12
+Internet Protocol Version 4, Src: 10.244.231.200, Dst: 10.244.200.194
+Internet Control Message Protocol
+
+No.     Time                          Source                Destination           Protocol Length Info
+     29 2021-08-07 18:46:16.309969    10.244.200.194        10.244.231.200        ICMP     118    Echo (ping) reply    id=0x3300, seq=0/0, ttl=63 (request in 27)
+
+Frame 29: 118 bytes on wire (944 bits), 118 bytes captured (944 bits)
+Ethernet II, Src: Vmware_e2:bf:86 (00:0c:29:e2:bf:86), Dst: Vmware_bd:fb:4a (00:0c:29:bd:fb:4a)
+Internet Protocol Version 4, Src: 172.12.1.12, Dst: 172.12.1.11
+Internet Protocol Version 4, Src: 10.244.200.194, Dst: 10.244.231.200
+Internet Control Message Protocol
