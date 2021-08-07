@@ -1,0 +1,15 @@
+No.     Time                          Source                Destination           Protocol Length Info
+      1 2021-08-07 21:49:17.638663    10.244.231.194        10.244.200.199        ICMP     98     Echo (ping) request  id=0x2100, seq=0/0, ttl=63 (reply in 2)
+
+Frame 1: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: 66:bd:dc:d1:59:40 (66:bd:dc:d1:59:40), Dst: 66:c8:b2:49:0d:d9 (66:c8:b2:49:0d:d9)
+Internet Protocol Version 4, Src: 10.244.231.194, Dst: 10.244.200.199
+Internet Control Message Protocol
+
+No.     Time                          Source                Destination           Protocol Length Info
+      2 2021-08-07 21:49:17.639053    10.244.200.199        10.244.231.194        ICMP     98     Echo (ping) reply    id=0x2100, seq=0/0, ttl=63 (request in 1)
+
+Frame 2: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: 66:c8:b2:49:0d:d9 (66:c8:b2:49:0d:d9), Dst: 66:bd:dc:d1:59:40 (66:bd:dc:d1:59:40)
+Internet Protocol Version 4, Src: 10.244.200.199, Dst: 10.244.231.194
+Internet Control Message Protocol

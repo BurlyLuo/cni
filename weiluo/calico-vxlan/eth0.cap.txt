@@ -1,0 +1,29 @@
+No.     Time                          Source                Destination           Protocol Length Info
+      1 2021-08-07 21:49:17.638613    6a:9c:78:a1:88:60     Broadcast             ARP      42     Who has 169.254.1.1? Tell 10.244.231.194
+
+Frame 1: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: 6a:9c:78:a1:88:60 (6a:9c:78:a1:88:60), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time                          Source                Destination           Protocol Length Info
+      2 2021-08-07 21:49:17.638631    ee:ee:ee:ee:ee:ee     6a:9c:78:a1:88:60     ARP      42     169.254.1.1 is at ee:ee:ee:ee:ee:ee
+
+Frame 2: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: ee:ee:ee:ee:ee:ee (ee:ee:ee:ee:ee:ee), Dst: 6a:9c:78:a1:88:60 (6a:9c:78:a1:88:60)
+Address Resolution Protocol (reply)
+
+No.     Time                          Source                Destination           Protocol Length Info
+      3 2021-08-07 21:49:17.638633    10.244.231.194        10.244.200.199        ICMP     98     Echo (ping) request  id=0x2100, seq=0/0, ttl=64 (reply in 4)
+
+Frame 3: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: 6a:9c:78:a1:88:60 (6a:9c:78:a1:88:60), Dst: ee:ee:ee:ee:ee:ee (ee:ee:ee:ee:ee:ee)
+Internet Protocol Version 4, Src: 10.244.231.194, Dst: 10.244.200.199
+Internet Control Message Protocol
+
+No.     Time                          Source                Destination           Protocol Length Info
+      4 2021-08-07 21:49:17.639096    10.244.200.199        10.244.231.194        ICMP     98     Echo (ping) reply    id=0x2100, seq=0/0, ttl=62 (request in 3)
+
+Frame 4: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: ee:ee:ee:ee:ee:ee (ee:ee:ee:ee:ee:ee), Dst: 6a:9c:78:a1:88:60 (6a:9c:78:a1:88:60)
+Internet Protocol Version 4, Src: 10.244.200.199, Dst: 10.244.231.194
+Internet Control Message Protocol
